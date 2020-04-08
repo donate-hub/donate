@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+  <title>Donate Hub - The Final Frontier</title>
+<style>
+* {
+  box-sizing: border-box;
+}
+
+/* Add a gray background color with some padding */
+body {
+  font-family: Arial;
+  color: black;
+  padding: 20px;
+  background: #f1f1f1;
+}
+
+body {
+    background: #306850; 
+  }
+  
+/* Header/Blog Title */
+.header {
+  padding: 30px;
+  font-size: 40px;
+  text-align: center;
+  background: #86C06C;
+}
+
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {   
+  float: left;
+  width: 75%;
+}
+
+/* Right column */
+.rightcolumn {
+  float: left;
+  width: 25%;
+  padding-left: 20px;
+}
+
+/* Fake image */
+.fakeimg {
+  background: #E0F8CF;
+  width: 100%;
+  padding: 20px;
+}
+
+/* Add a card effect for articles */
+.card {
+   background: #86C06C;
+   padding: 20px;
+   margin-top: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+  margin-top: 20px;
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {   
+    width: 100%;
+    padding: 0;
+  }
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <a href="https://donate-hub.github.io/"><img height="244" src="donateff.png"></a>
+  
+</div>
+  
+ <div class="header">
+   <a href="https://donate.fandom.com/wiki/CobySSD"><img height="244" src="coby.png"></a>
+   <a href="https://donate.fandom.com/wiki/Minity"><img height="244" src="minity.png"></a>
+   <a href="https://donate.fandom.com/wiki/Jake_IV"><img height="244" src="jakeiv.png"></a> 
+   <a href="https://donate.fandom.com/wiki/Dreamcast"><img height="244" src="dreamcast.png"></a>
+   <a href="https://donate.fandom.com/wiki/Dinosaur202"><img height="244" src="dino.png"></a>
+   <a href="https://donate.fandom.com/wiki/Darrell"><img height="244" src="darrell.png"></a>
+   
+</div>
+
+<div class="row">
+  <div class="leftcolumn">
+<!--    <div class="card">  Blog Post Template
+      <h2>TITLE HEADING</h2>
+      <h5>Title description, Dec 7, 2017</h5>
+      <div class="fakeimg" style="height:200px;">Image</div>
+      <p>Some text..</p>
+      <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+    </div> -->
+    <div class="card">
+      <h2>Chapter 1 - The Pilot</h2>
+      <h5>05:00 EST, April 8, 2020</h5>
+      <div class="fakeimg"><img width="500" src="comic/chapter1/c1cover.png"></div>
+      <p>The first chapter has been released.</p>
+      <p>Website has been made, and the first chapter released. Who knows who this mysterious captain could be? Perhaps there are some clues hidden inside? Tune in next week for the next chapter!</p>
+    </div>
+  </div>
+  <div class="rightcolumn">
+    <div class="card">
+      <h2>About Donate</h2>
+      <p>Donate is a series of Discord DM Groups, who have been together for almost 2 years! This is the homepage for all projects they do as a group.</p>
+    </div>
+    <div class="card">
+      <img width="400" src="links.png"><br>
+      <a href="https://minity.neocities.org/"><img width="400" src="donateff.png"></a>
+      <a href="https://donate.fandom.com/wiki/Donate_Wiki"><img width="400" src="donatewiki.png"></a>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
